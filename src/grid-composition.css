@@ -1,0 +1,96 @@
+/* Shared page boundaries and stage geometry; motion belongs to products. */
+:root { --layout-gap: var(--space-48); --stage-padding: var(--space-24); --section-rhythm: var(--space-64); }
+.hero, .business-note, .requirement-inner, .final-contact > .container { column-gap: var(--layout-gap); }
+.hero { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1fr); align-items: center; padding-block: var(--space-48) var(--space-24); }
+.hero-copy { min-width: 0; padding-top: 0; }
+.hero h1 { width: auto; font-size: clamp(3rem,6.8vw,6.5rem); line-height: 1; }
+.hero .hero-line, .hero h1 .hero-word { max-width: 100%; }
+.hero-composition { position: relative; width: 100%; aspect-ratio: 4 / 3; min-height: 0; margin: 0; padding: 0; background: transparent; overflow: hidden; mix-blend-mode: normal; animation: none !important; translate: none; scale: none; }
+.hero .real-media { background: transparent; box-shadow: none; padding: 0; margin: 0; mix-blend-mode: multiply; }
+.hero .real-media.hero-main { width: 74%; height: 78%; inset: 8% auto auto 9%; transform: none !important; }
+.hero .real-media.hero-support { width: 34%; height: 36%; left: 0; bottom: 0; right: auto; top: auto; }
+.hero .real-media.hero-foreground { width: 28%; height: 38%; top: 0; right: 0; left: auto; bottom: auto; }
+.hero .real-media.hero-main { background: var(--sand); padding: var(--space-16); }
+.hero .real-media.hero-support { background: #e0d5c3; padding: var(--space-12); }
+.hero .real-media.hero-foreground { background: #e3e8df; padding: var(--space-8); }
+.hero .real-media { mix-blend-mode: normal; border-radius: 12px; border: 1px solid rgb(32 38 30 / 6%); box-shadow: 0 8px 24px rgb(32 38 30 / 5%); overflow: hidden; }
+.hero .real-media .catalogue-image { mix-blend-mode: normal; }
+.hero .real-media .media-window { mix-blend-mode: multiply; }
+.hero .real-media .media-window, .hero .real-media .product-transition, .hero .real-media .product-layer { background: transparent; }
+/* Blend the complete animated image group with its material ground. Blending
+   only the img loses that ground inside opacity/transform compositing layers. */
+.real-media .media-window, .category-stage-media { mix-blend-mode: multiply; }
+.real-media .catalogue-image, .category-stage-media .catalogue-image { mix-blend-mode: normal; }
+.catalogue-image-fallback { width: 100%; height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: var(--space-8); padding: var(--space-16); text-align: center; color: var(--ink); background: transparent; font-size: .875rem; }
+.catalogue-image-fallback small { max-width: 28ch; font-size: .75rem; color: var(--muted); }
+.hero-support .catalogue-image-fallback, .hero-foreground .catalogue-image-fallback { padding: var(--space-8); font-size: .75rem; line-height: 1.4; }
+.hero-support .catalogue-image-fallback small, .hero-foreground .catalogue-image-fallback small { display: none; }
+.product-outgoing { z-index: 0; }
+.product-incoming { z-index: 1; }
+.hero-caption { bottom: var(--space-8); left: 43%; right: 0; width: auto; font-size: .6875rem; }
+.hero-description { max-width: 44ch; font-size: 1.0625rem; line-height: 1.65; margin-top: var(--space-24); }
+.hero-buttons { gap: var(--space-24); margin-top: var(--space-32); align-items: center; }
+.hero-buttons .button { min-height: 52px; padding-inline: var(--space-24); }
+.hero-foot { grid-column: 1 / -1; margin-top: var(--space-24); }
+.discovery, .showcase, .business-note, .requirement-panel, .final-contact { padding-block: var(--section-rhythm); }
+.section-heading { gap: var(--layout-gap); margin-bottom: var(--space-32); }
+.discovery-workspace { grid-template-columns: minmax(0,3fr) minmax(0,9fr); gap: var(--space-32); }
+.category-stage { grid-template-columns: minmax(0,4fr) minmax(0,6fr); min-height: 0; padding: var(--stage-padding); gap: var(--space-24); background: var(--sand); }
+.category-stage[data-category] { background: var(--sand); }
+.category-stage-copy { margin: 0; }
+.category-stage h3 { font-size: clamp(2rem,3.3vw,3.5rem); }
+.category-stage-media { aspect-ratio: 4 / 3; height: auto; width: 100%; }
+.showcase-grid { grid-template-columns: minmax(0,2fr) minmax(0,1fr); gap: var(--space-32); align-items: start; }
+.showcase .editorial-card, .showcase .real-media { mix-blend-mode: normal; }
+.dominant-card { position: sticky; top: calc(var(--header-height) + var(--space-24)); padding: 0; }
+.support-stack { display: grid; grid-template-columns: minmax(0,1fr); padding: 0; gap: var(--space-32); }
+.support-card:first-child, .support-card:last-child { margin: 0; width: 100%; }
+.real-media.feature-image, .real-media.support-image, .showcase .support-card .real-media { width: 100%; height: auto; min-height: 0; aspect-ratio: 4 / 3; padding: var(--stage-padding); background: var(--sand); box-shadow: none; }
+.showcase .media-window { padding: 0; }
+.showcase .story-image-motion { animation: none !important; translate: none; scale: none; }
+.showcase .catalogue-image { mix-blend-mode: multiply; }
+.product-card-copy { padding-top: var(--space-16); }
+.requirement-inner, .business-note { grid-template-columns: minmax(0,1fr) minmax(0,1fr); }
+.requirement-image { width: 100%; height: auto; aspect-ratio: 4 / 3; margin: var(--space-24) 0 0; padding: var(--stage-padding); background: var(--paper); }
+.requirement-image .media-window { padding: 0; }
+.requirement-motion-toggle { margin: 0; }
+.final-contact > .container { grid-template-columns: minmax(0,1fr) minmax(0,1fr); align-items: center; }
+.contact-image { width: 100%; height: auto; min-height: 0; aspect-ratio: 4 / 3; margin: 0; padding: var(--stage-padding); background: var(--sand); box-shadow: none; }
+.contact-heading { align-items: center; gap: var(--space-24); }
+.contact-arrow { width: var(--space-32); height: var(--space-32); flex-shrink: 0; }
+.contact-heading h2 { font-size: clamp(2.5rem,4.3vw,4.5rem); }
+.brand-text-scene { padding-inline: 0; padding-block: var(--space-32); }
+.brand-text-canvas { max-width: none; height: clamp(180px,26vw,380px); }
+.brand-text-scene .eyebrow { text-align: center; }
+.text-hover-effect:focus-visible { outline: var(--focus-width) solid var(--sand); outline-offset: var(--focus-offset); border-radius: 4px; }
+.hero-eyebrow, .hero-caption, .hero-foot > span, .category-stage-copy .eyebrow, .result-header, .reference-note { font-size: .75rem; }
+@media (min-width:960px) and (hover:hover) and (pointer:fine) and (prefers-reduced-motion:no-preference) {
+  .pointer-depth .hero-main .product-transition { translate: calc(var(--depth-x,0px) * 1.5) calc(var(--depth-y,0px) * 1.5); transition: translate var(--hover-duration) var(--reveal-ease); }
+}
+@media (max-width:959px) {
+  :root { --layout-gap: var(--space-32); --stage-padding: var(--space-24); }
+  .hero { grid-template-columns: minmax(0,1fr); gap: var(--space-32); }
+  .hero h1 { font-size: clamp(3rem,10vw,6rem); }
+  .hero-composition { aspect-ratio: 4 / 3; }
+  .discovery-workspace { grid-template-columns: minmax(0,1fr); }
+  .discovery-controls { position: static; }
+  .showcase-grid { grid-template-columns: minmax(0,1fr) minmax(0,1fr); }
+  .dominant-card { position: static; }
+  .business-note { grid-template-columns: minmax(0,1fr); }
+}
+@media (max-width:639px) {
+  :root { --layout-gap: var(--space-24); --stage-padding: var(--space-16); --section-rhythm: var(--space-48); }
+  .hero { padding-top: var(--space-24); gap: var(--space-24); }
+  .hero h1 { font-size: clamp(2.7rem,12.6vw,4rem); }
+  .hero-composition { aspect-ratio: 4 / 3; }
+  .hero-foot { margin-top: 0; }
+  .category-stage { grid-template-columns: minmax(0,1fr); gap: var(--space-24); }
+  .category-stage h3 { font-size: 2.4rem; }
+  .category-stage-media { aspect-ratio: 4 / 3; height: auto; }
+  .showcase-grid, .requirement-inner, .final-contact > .container { grid-template-columns: minmax(0,1fr); }
+  .support-stack { gap: var(--space-24); }
+  .final-contact .contact-image { grid-column: 1; grid-row: auto; order: 0; }
+  .brand-text-scene { padding-inline: 0; }
+  .brand-text-canvas { height: 150px; }
+}
+@media (prefers-reduced-motion:reduce) { .hero-main .product-transition { translate: none !important; } }

@@ -1,0 +1,71 @@
+{
+  "paper": {
+    "src": "/assets/images/catalogue/paper-page-05.jpg",
+    "width": 174,
+    "height": 174,
+    "page": 5,
+    "embeddedName": "X10.jpg",
+    "sha256": "11d6239de4a2bd1950c716bb90bde9baf2f3b0de3be3f19e73f2564b452ce9e8",
+    "approved": false,
+    "status": "TEMPORARY CATALOGUE IMAGE \u2014 OWNER APPROVAL REQUIRED"
+  },
+  "boxes": {
+    "src": "/assets/images/catalogue/boxes-page-08.png",
+    "width": 300,
+    "height": 300,
+    "page": 8,
+    "embeddedName": "X6.png",
+    "sha256": "b9514dc6bba1baed1fa2fa8260379c9ba0396546444c7a22614c96d07d68b797",
+    "approved": false,
+    "status": "TEMPORARY CATALOGUE IMAGE \u2014 OWNER APPROVAL REQUIRED"
+  },
+  "labels": {
+    "src": "/assets/images/catalogue/labels-page-14.png",
+    "width": 768,
+    "height": 513,
+    "page": 14,
+    "embeddedName": "X6.png",
+    "sha256": "e2500494dbf70f76d78e287a7775fc97df5d85dfdfb3500cda0434ec14be2af9",
+    "approved": false,
+    "status": "TEMPORARY CATALOGUE IMAGE \u2014 OWNER APPROVAL REQUIRED"
+  },
+  "office": {
+    "src": "/assets/images/catalogue/office-page-16.png",
+    "width": 450,
+    "height": 404,
+    "page": 16,
+    "embeddedName": "X6.png",
+    "sha256": "b4b1fc2565945e872f67a3c886da6f2e111ead804d061a1a1a12fc3a51bee42e",
+    "approved": false,
+    "status": "TEMPORARY CATALOGUE IMAGE \u2014 OWNER APPROVAL REQUIRED"
+  },
+  "tapes": {
+    "src": "/assets/images/catalogue/tapes-page-18.png",
+    "width": 360,
+    "height": 480,
+    "page": 18,
+    "embeddedName": "X10.png",
+    "sha256": "b22de279d03398c3f5d576869e28562a1448f0b6c803d88664b5c69586116e29",
+    "approved": false,
+    "status": "TEMPORARY CATALOGUE IMAGE \u2014 OWNER APPROVAL REQUIRED"
+  },
+  "protective": {
+    "src": "/assets/images/catalogue/protective-page-24.png",
+    "width": 450,
+    "height": 450,
+    "page": 24,
+    "embeddedName": "X8.png",
+    "sha256": "bc8d843fa42a14a981e7ffe5ba54a7f36dcd2e2a673240e759f7e670c7be40ee",
+    "approved": false,
+    "status": "TEMPORARY CATALOGUE IMAGE \u2014 OWNER APPROVAL REQUIRED"
+  },
+  "carry": {
+    "src": "/assets/images/illustrative/carry-bags-studio.webp",
+    "width": 1448,
+    "height": 1086,
+    "page": null,
+    "sourceKind": "generated-illustration",
+    "approved": false,
+    "status": "ILLUSTRATIVE IMAGE \u2014 OWNER APPROVAL REQUIRED"
+  }
+}

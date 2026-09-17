@@ -1,0 +1,16 @@
+{
+  "sourceKind": "AI-generated illustration",
+  "authorization": "User explicitly requested a similar new high-quality image instead of the inherited carry-bag photograph.",
+  "asset": {
+    "src": "/assets/images/illustrative/carry-bags-studio.webp",
+    "width": 1448,
+    "height": 1086,
+    "page": null,
+    "sourceKind": "generated-illustration",
+    "approved": false,
+    "status": "ILLUSTRATIVE IMAGE \u2014 OWNER APPROVAL REQUIRED"
+  },
+  "master": "public\\assets\\images\\illustrative\\carry-bags-studio.png",
+  "sha256": "10e6720a85b95018fcfe4822b8176f4b3b84662cb71678ffa09dd217645372d2",
+  "note": "Illustrative composition, not a verified photograph of actual inventory. Original catalogue asset retained for provenance but no longer rendered."
+}

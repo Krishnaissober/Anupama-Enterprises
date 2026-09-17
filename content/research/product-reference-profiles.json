@@ -1,0 +1,335 @@
+{
+  "retrievedAt": "2026-09-17",
+  "profiles": [
+    {
+      "id": "paper-mailer",
+      "records": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "title": "Paper mailers",
+      "sourceUrl": "https://www.mondigroup.com/products-and-solutions/ecommerce/paper-mailers/",
+      "sourceTitle": "Mondi — Paper mailers",
+      "summary": "Paper mailers are a packaging format used for dispatching products in e-commerce.",
+      "description": "Mondi describes paper mailers for fashion items, books, accessories and other shipments. Its own range includes different bottom constructions and opening arrangements. These are industry examples, not confirmed features of this catalogue reference.",
+      "terminology": "Return strip and tear tape are examples of opening or return features in Mondi's range.",
+      "applications": "Examples in the source include fashion items, books and accessories; suitability for a particular shipment requires confirmation."
+    },
+    {
+      "id": "corrugated",
+      "records": [
+        6,
+        7,
+        8,
+        9,
+        41
+      ],
+      "title": "Corrugated packaging",
+      "sourceUrl": "https://www.fefco.org/node/7",
+      "sourceTitle": "FEFCO — Corrugated packaging",
+      "summary": "Corrugated packaging combines flat paper liners with a fluted paper medium.",
+      "description": "FEFCO explains that liners and fluting are assembled into board, then cut and folded into packaging shapes. Board construction and box dimensions are separate considerations. The external explanation does not establish the grade, flute, strength or current construction of this reference.",
+      "terminology": "Liner and fluting describe parts of corrugated board.",
+      "applications": "The source describes corrugated material as packaging for packing and protecting products."
+    },
+    {
+      "id": "poly-mailer",
+      "records": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "title": "Plastic mailers",
+      "sourceUrl": "https://www.uline.com/Product/Detail/S-11484P/Poly-Mailers/Poly-Mailers-14-1-2-x-19-Pink",
+      "sourceTitle": "ULINE — Poly Mailers",
+      "summary": "Plastic mailers are envelope-style shipping packaging; construction varies by product.",
+      "description": "ULINE's example uses polyethylene and a self-sealing adhesive strip. Those details explain one supplier's product, not the material, closure or performance of an Anupama catalogue reference. Confirm the catalogue size, seal arrangement and intended contents before selection.",
+      "terminology": "Self-seal adhesive strip is the closure wording used for the supplier example.",
+      "applications": "The supplier example is a mailer for dispatching items. Confirm contents, fit and closure requirements for this catalogue reference."
+    },
+    {
+      "id": "direct-thermal",
+      "records": [
+        16,
+        17
+      ],
+      "title": "Direct thermal labels",
+      "sourceUrl": "https://www.avery.com/blog/thermal-printers-direct-thermal-vs-thermal-transfer-labels/",
+      "sourceTitle": "Avery — Direct thermal vs. thermal transfer labels",
+      "summary": "Direct thermal printing creates an image on heat-sensitive media without a printing ribbon.",
+      "description": "Avery distinguishes direct thermal media from thermal transfer labels, which use a ribbon. Printer compatibility and the conditions in which a label will be used matter when choosing media. This does not confirm printer compatibility, adhesive, coating or life expectancy for the catalogue rolls.",
+      "terminology": "Direct thermal and thermal transfer are different printing methods.",
+      "applications": "The source discusses label printing with direct thermal and thermal-transfer methods. Confirm the intended labelling workflow and printer."
+    },
+    {
+      "id": "sheet-label",
+      "records": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "title": "Sheet-label references",
+      "sourceUrl": "https://www.avery.com/blank/sheets/",
+      "sourceTitle": "Avery — Blank labels by the sheet",
+      "summary": "Sheet labels arrange adhesive labels on a printable backing sheet.",
+      "description": "Avery's sheet-label range illustrates different label shapes and arrangements. A label template and printer setup must match the actual sheet. The source is contextual guidance; it does not establish an equivalent template, sheet size or printer compatibility for A4 ST references.",
+      "applications": "Avery describes addressing, shipping, product branding and events as examples for its own sheet labels."
+    },
+    {
+      "id": "thermal-roll",
+      "records": [
+        22
+      ],
+      "title": "Thermal paper references",
+      "sourceUrl": "https://www.koehlerpaper.com/en/products/Thermal-paper/",
+      "sourceTitle": "Koehler Paper — Thermal paper",
+      "summary": "Thermal paper is used in receipt, ticket and labelling workflows.",
+      "description": "Koehler describes thermal-paper applications including sales receipts and logistics labels. Paper chemistry, roll dimensions and equipment requirements vary. Its product properties are not evidence for the catalogue billing roll.",
+      "applications": "Sales receipts and package labels are examples described by Koehler."
+    },
+    {
+      "id": "packing-tape",
+      "records": [
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "title": "Packing-tape references",
+      "sourceUrl": "https://www.3m.com/3M/en_US/p/d/b5005647002/",
+      "sourceTitle": "3M — Commercial grade shipping packaging tape",
+      "summary": "Packaging tape is used to close packages and shipping cartons.",
+      "description": "3M's shipping-tape example has a polypropylene backing. Tape backing, adhesive, width and length are separate selection considerations. The third-party example does not verify the composition, adhesive, holding strength or printed artwork rights of these catalogue tapes.",
+      "terminology": "Backing describes the tape's supporting film; adhesive describes its bonding layer.",
+      "applications": "The manufacturer example concerns closing shipping packages and cartons; no adhesive performance is confirmed here."
+    },
+    {
+      "id": "masking",
+      "records": [
+        36
+      ],
+      "title": "Masking tape",
+      "sourceUrl": "https://www.3m.com/3M/en_US/p/d/b40071777/",
+      "sourceTitle": "3M — Paper Masking Tape 2214",
+      "summary": "Masking tapes are used to mask surfaces during work such as painting.",
+      "description": "3M's example uses a crepe-paper backing for paint masking. Removal conditions, surfaces and exposure affect selection. The example does not establish the catalogue tape's backing, adhesive, temperature limits or clean-removal performance.",
+      "applications": "The manufacturer example discusses indoor paint masking; confirm surface and removal conditions."
+    },
+    {
+      "id": "foam-tape",
+      "records": [
+        37
+      ],
+      "title": "Double-sided foam tape",
+      "sourceUrl": "https://www.3m.co.uk/3M/en_GB/p/d/b40072054/",
+      "sourceTitle": "3M — Double Coated Polyethylene Foam Tape 9546",
+      "summary": "Double-coated foam tapes combine a foam carrier with adhesive on both sides.",
+      "description": "3M's foam-tape range includes double-coated polyethylene examples. Foam composition, thickness and bond suitability differ between products. No third-party grade or bonding performance is assigned to this catalogue item.",
+      "applications": "The manufacturer example discusses bonding plastics; exact substrates and bond suitability remain unconfirmed."
+    },
+    {
+      "id": "stretch",
+      "records": [
+        38,
+        56
+      ],
+      "title": "Stretch-film references",
+      "sourceUrl": "https://www.signode.com/products/stretch-systems/",
+      "sourceTitle": "Signode — Stretch and pallet wrapping solutions",
+      "summary": "Stretch wrapping applies film around a load to help hold it together.",
+      "description": "Signode describes wrapping systems and films selected for different load conditions. Film selection and wrapping pattern are related to the load and equipment. This guidance does not confirm the catalogue film's resin, thickness, roll length, pre-stretch or load rating.",
+      "applications": "Palletized loads are a wrapping application described by Signode."
+    },
+    {
+      "id": "bubble",
+      "records": [
+        39,
+        55
+      ],
+      "title": "Bubble cushioning",
+      "sourceUrl": "https://www.sealedair.com/products/by-material-type/flexible-films",
+      "sourceTitle": "Sealed Air — Flexible packaging solutions",
+      "summary": "Air-cell cushioning is one protective-packaging use of flexible film.",
+      "description": "Sealed Air lists bubble cushioning among its film-based protective systems. Its BUBBLE WRAP brand and product performance belong to that manufacturer. They do not establish an affiliation, brand or cushioning specification for catalogue BUBBLE ROLL or BUBBLE WRAP.",
+      "applications": "The manufacturer describes film-based cushioning as protective packaging; confirm protection requirements."
+    },
+    {
+      "id": "honeycomb",
+      "records": [
+        40
+      ],
+      "title": "Honeycomb wrapping references",
+      "sourceUrl": "https://www.ranpak.com/es/products/geami-hv/",
+      "sourceTitle": "Ranpak — Geami HV",
+      "summary": "Some paper wrapping systems expand die-cut paper into a three-dimensional honeycomb structure.",
+      "description": "Ranpak's Geami example expands kraft paper into a wrapping structure. This is a reference for understanding honeycomb terminology, not confirmation that the catalogue product is Geami or has the same paper, construction or performance.",
+      "applications": "The manufacturer example concerns expanded paper wrapping; no equivalent system or performance is established."
+    },
+    {
+      "id": "bopp",
+      "records": [
+        42
+      ],
+      "title": "BOPP terminology",
+      "sourceUrl": "https://www.innoviafilms.com/",
+      "sourceTitle": "Innovia Films — BOPP films",
+      "summary": "BOPP means biaxially oriented polypropylene and is a film term used in packaging and labels.",
+      "description": "Innovia describes BOPP film applications in packaging and labels. Film grades and properties differ. This terminology reference does not confirm the catalogue bag's thickness, coating, sealability or intended contents.",
+      "applications": "Innovia describes film use in packaging and labels; confirm the intended contents and bag closure."
+    },
+    {
+      "id": "carry",
+      "records": [
+        43,
+        44,
+        45,
+        46,
+        47,
+        49
+      ],
+      "title": "Carrier-bag references",
+      "sourceUrl": "https://www.papier-mettler.com/en_products_nonfood_retail.htm",
+      "sourceTitle": "Papier-Mettler — NonFood retail packaging",
+      "summary": "Carrier bags come in different handle and bottom constructions.",
+      "description": "Papier-Mettler lists paper and plastic carrier formats, including flat, punched and rope handles and block-bottom bags. These examples explain possible construction terminology without assigning a material, handle style or exact bottom design to a particular catalogue occurrence.",
+      "terminology": "Handle design and bottom construction describe different parts of a bag.",
+      "applications": "The manufacturer groups carrier formats under retail packaging. Confirm handle, bottom and intended load."
+    },
+    {
+      "id": "pouch",
+      "records": [
+        50
+      ],
+      "title": "Pouch-format references",
+      "sourceUrl": "https://northamerica.mondigroup.com/products-solutions/flexible-packaging-bags-and-pouches/stand-up-pouch/",
+      "sourceTitle": "Mondi — Stand Up Pouch",
+      "summary": "Pouches are a flexible-packaging format; stand-up pouches are one example.",
+      "description": "Mondi describes a stand-up format for products such as household goods. The catalogue's generic POUCHES entry does not identify that format. Lamination, barrier properties, closure, food suitability and exact construction remain unconfirmed.",
+      "applications": "The supplier example lists household goods and detergents; the generic catalogue occurrence does not confirm those uses."
+    },
+    {
+      "id": "napkin",
+      "records": [
+        51,
+        52
+      ],
+      "title": "Napkin references",
+      "sourceUrl": "https://www.torkglobal.com/us/en/products/napkins-tableware/refills/conventional-napkins",
+      "sourceTitle": "Tork — Conventional napkins",
+      "summary": "Napkin formats may differ in folding arrangement and number of plies.",
+      "description": "Tork's range illustrates different folding types and ply counts for table-service napkins. Those supplier details are not catalogue specifications. Printing capability, material, folding style and dimensions of the catalogue references need owner confirmation.",
+      "applications": "The supplier range concerns napkins for table service; fold, ply, printing and suitability remain unconfirmed."
+    },
+    {
+      "id": "rigid",
+      "records": [
+        54
+      ],
+      "title": "Rigid-box references",
+      "sourceUrl": "https://www.smurfitwestrock.com/products/packaging/consumer-non-food/rigid-boxes",
+      "sourceTitle": "Smurfit Westrock — Rigid boxes",
+      "summary": "Rigid boxes are shaped packaging commonly constructed using sturdy paperboard.",
+      "description": "Smurfit Westrock describes paperboard boxes with varied closures and decorative finishes. Its examples help distinguish rigid-box terminology from corrugated board. No construction, finish, insert or closure is confirmed for the catalogue's additional-list RIGID BOXES entry.",
+      "applications": "The manufacturer describes consumer packaging boxes; confirm exact contents, inserts and closure."
+    },
+    {
+      "id": "shrink",
+      "records": [
+        57
+      ],
+      "title": "Shrink-film references",
+      "sourceUrl": "https://www.sealedair.com/products/by-material-type/flexible-films",
+      "sourceTitle": "Sealed Air — Flexible packaging solutions",
+      "summary": "Shrink film is a distinct flexible-packaging format in protective packaging.",
+      "description": "Sealed Air lists shrink films separately from its other protective film products. Exact film material, equipment requirements and operating parameters are product-specific. The generic SHRINK WRAP catalogue mention provides no confirmed technical specification.",
+      "applications": "The source identifies shrink film as protective packaging; confirm equipment and operating requirements."
+    },
+    {
+      "id": "office-context",
+      "records": [
+        48
+      ],
+      "title": "Office-supply context — scope unconfirmed",
+      "sourceUrl": "https://www.staples.com/Office-Supplies/cat_SC1",
+      "sourceTitle": "Staples — Office supplies",
+      "summary": "Office supplies is a broad grouping rather than a single product specification.",
+      "description": "The external supplier groups writing supplies, paper and filing products. These examples explain the broad office context only; the catalogue does not establish which individual items OFFICE STATIONARY includes.",
+      "terminology": "Writing supplies and filing products are supplier category terms, not confirmed Anupama inventory.",
+      "applications": "General supplier examples include writing and organizing documents; exact items and suitability require owner clarification."
+    },
+    {
+      "id": "ambiguous-pouch-context",
+      "records": [
+        53
+      ],
+      "title": "General pouch context — identity unconfirmed",
+      "sourceUrl": "https://www.mondigroup.com/products-and-solutions/flexible-packaging/",
+      "sourceTitle": "Mondi — Flexible packaging",
+      "summary": "Pouch describes a flexible-packaging format. SLIVER POUCHES remains an unresolved catalogue name.",
+      "description": "Mondi shows multiple pouch formats. This broad reference does not interpret SLIVER as silver, foil or any material, and does not identify the shape, closure, intended contents or construction of this occurrence.",
+      "terminology": "Pouch format and material composition are separate questions. The catalogue wording is retained without correction.",
+      "applications": "The source shows flexible packaging for varied contents. No application is assigned to this ambiguous catalogue item."
+    }
+  ],
+  "withheld": {
+    "CAT-048": "OFFICE STATIONARY is too broad to identify one product type.",
+    "CAT-053": "SLIVER POUCHES is ambiguous; no silver/foil construction inferred."
+  },
+  "imageReferences": [
+    {
+      "type": "paper-mailer",
+      "sourceUrl": "https://www.mondigroup.com/products-and-solutions/ecommerce/paper-mailers/",
+      "imageUrl": "https://www.mondigroup.com/cdn-cgi/image/f%3Dauto%2Ctrim%3D0%3B1674%3B0%3B1445%2Cw%3D100%2Csharpen%3D1/AdaptiveImages/celum/373628/MailerBAG_Block%20bottom.jpg?stamp=c5393704de43913fbb6ed18772ed25a6808422c6",
+      "description": "Mondi MailerBAG example; manufacturer page identifies product images.",
+      "sourceTitle": "Mondi — Paper mailers"
+    },
+    {
+      "type": "corrugated",
+      "sourceUrl": "https://www.happypaperbox.com/product-list/carton-box-pacakging",
+      "imageUrl": "https://img.waimaoniu.net/1157/1157-202307081913024146.jpg",
+      "description": "Corrugated cartons; image-search reference only, not a specification source.",
+      "sourceTitle": "HappyPaperBox — Carton box packaging"
+    },
+    {
+      "type": "direct-thermal",
+      "sourceUrl": "https://blumax.com.au/collections/direct-thermal-zebra-labels",
+      "imageUrl": "https://blumax.com.au/cdn/shop/files/direct-thermal-50mm-x-100mm.jpg?v=1773217297&width=2000",
+      "description": "Supplier label roll example; not an equivalent size claim.",
+      "sourceTitle": "Blumax — Direct thermal Zebra labels"
+    },
+    {
+      "type": "packing-tape",
+      "sourceUrl": "https://www.3m.com/3M/en_US/p/d/b5005647002/",
+      "description": "Manufacturer tape/dispenser imagery on product page.",
+      "sourceTitle": "3M — Shipping packaging tape"
+    },
+    {
+      "type": "carry",
+      "sourceUrl": "https://www.papier-mettler.com/en_products_nonfood_retail.htm",
+      "description": "Manufacturer carrier-bag photographs on source page.",
+      "sourceTitle": "Papier-Mettler — NonFood retail packaging"
+    },
+    {
+      "type": "bubble",
+      "sourceUrl": "https://www.sealedair.com/products/by-material-type/flexible-films",
+      "description": "Manufacturer protective-film imagery on source page.",
+      "sourceTitle": "Sealed Air — Flexible packaging solutions"
+    }
+  ]
+}

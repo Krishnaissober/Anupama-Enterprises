@@ -1,0 +1,77 @@
+[
+  {
+    "type": "paper-mailer",
+    "sourceUrl": "https://www.mondigroup.com/products-and-solutions/ecommerce/paper-mailers/",
+    "imageUrl": "https://www.mondigroup.com/cdn-cgi/image/f%3Dauto%2Ctrim%3D0%3B1674%3B0%3B1445%2Cw%3D100%2Csharpen%3D1/AdaptiveImages/celum/373628/MailerBAG_Block%20bottom.jpg?stamp=c5393704de43913fbb6ed18772ed25a6808422c6",
+    "description": "Mondi MailerBAG example; manufacturer page identifies product images.",
+    "sourceTitle": "Mondi — Paper mailers",
+    "sourceType": "external-research",
+    "retrievedAt": "2026-09-17",
+    "verificationStatus": "external-reference",
+    "rightsStatus": "REQUIRES IMAGE RIGHTS / OWNER APPROVAL",
+    "reusePermission": "No explicit reuse grant established; research link only",
+    "shipped": false
+  },
+  {
+    "type": "corrugated",
+    "sourceUrl": "https://www.happypaperbox.com/product-list/carton-box-pacakging",
+    "imageUrl": "https://img.waimaoniu.net/1157/1157-202307081913024146.jpg",
+    "description": "Corrugated cartons; image-search reference only, not a specification source.",
+    "sourceTitle": "HappyPaperBox — Carton box packaging",
+    "sourceType": "external-research",
+    "retrievedAt": "2026-09-17",
+    "verificationStatus": "external-reference",
+    "rightsStatus": "REQUIRES IMAGE RIGHTS / OWNER APPROVAL",
+    "reusePermission": "No explicit reuse grant established; research link only",
+    "shipped": false
+  },
+  {
+    "type": "direct-thermal",
+    "sourceUrl": "https://blumax.com.au/collections/direct-thermal-zebra-labels",
+    "imageUrl": "https://blumax.com.au/cdn/shop/files/direct-thermal-50mm-x-100mm.jpg?v=1773217297&width=2000",
+    "description": "Supplier label roll example; not an equivalent size claim.",
+    "sourceTitle": "Blumax — Direct thermal Zebra labels",
+    "sourceType": "external-research",
+    "retrievedAt": "2026-09-17",
+    "verificationStatus": "external-reference",
+    "rightsStatus": "REQUIRES IMAGE RIGHTS / OWNER APPROVAL",
+    "reusePermission": "No explicit reuse grant established; research link only",
+    "shipped": false
+  },
+  {
+    "type": "packing-tape",
+    "sourceUrl": "https://www.3m.com/3M/en_US/p/d/b5005647002/",
+    "description": "Manufacturer tape/dispenser imagery on product page.",
+    "sourceTitle": "3M — Shipping packaging tape",
+    "sourceType": "external-research",
+    "retrievedAt": "2026-09-17",
+    "verificationStatus": "external-reference",
+    "rightsStatus": "REQUIRES IMAGE RIGHTS / OWNER APPROVAL",
+    "reusePermission": "No explicit reuse grant established; research link only",
+    "shipped": false
+  },
+  {
+    "type": "carry",
+    "sourceUrl": "https://www.papier-mettler.com/en_products_nonfood_retail.htm",
+    "description": "Manufacturer carrier-bag photographs on source page.",
+    "sourceTitle": "Papier-Mettler — NonFood retail packaging",
+    "sourceType": "external-research",
+    "retrievedAt": "2026-09-17",
+    "verificationStatus": "external-reference",
+    "rightsStatus": "REQUIRES IMAGE RIGHTS / OWNER APPROVAL",
+    "reusePermission": "No explicit reuse grant established; research link only",
+    "shipped": false
+  },
+  {
+    "type": "bubble",
+    "sourceUrl": "https://www.sealedair.com/products/by-material-type/flexible-films",
+    "description": "Manufacturer protective-film imagery on source page.",
+    "sourceTitle": "Sealed Air — Flexible packaging solutions",
+    "sourceType": "external-research",
+    "retrievedAt": "2026-09-17",
+    "verificationStatus": "external-reference",
+    "rightsStatus": "REQUIRES IMAGE RIGHTS / OWNER APPROVAL",
+    "reusePermission": "No explicit reuse grant established; research link only",
+    "shipped": false
+  }
+]

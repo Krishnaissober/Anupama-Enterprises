@@ -1,0 +1,78 @@
+/* Phase 4 is isolated from the frozen homepage/catalogue layouts. */
+.business-page { background:var(--paper);color:var(--ink); }
+.business-breadcrumb { display:flex;flex-wrap:wrap;gap:10px;font-size:.8125rem;margin-block:24px;line-height:1.6; }
+.business-breadcrumb a { text-decoration:underline;text-underline-offset:4px; }
+.business-page h1 { font-size:clamp(2.5rem,5.8vw,5.5rem);line-height:1.03;letter-spacing:-.055em;overflow-wrap:anywhere;margin-block:24px; }
+.business-page h1 span { color:var(--rust); }
+.business-page h2 { font-size:clamp(1.8rem,3.3vw,3.25rem);line-height:1.1;letter-spacing:-.04em;margin-block:16px 24px; }
+.business-page h3 { font-size:clamp(1.25rem,2vw,1.75rem);line-height:1.2;letter-spacing:-.025em;overflow-wrap:anywhere; }
+.business-page p { line-height:1.7; }
+.business-hero,.enquiry-hero { display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:clamp(24px,5vw,80px);align-items:center;margin-block:56px 96px; }
+.business-hero-model { font-size:clamp(1.25rem,2vw,1.875rem);margin-bottom:16px; }
+.business-lede { color:var(--muted);max-width:48ch;font-size:1rem; }
+.business-actions { display:flex;flex-wrap:wrap;gap:24px;margin-top:32px;align-items:center; }
+.business-hero-visual,.enquiry-hero-visual { min-width:0;background:#e1d4bc;border:1px solid #bdab8d;border-radius:16px;padding:32px; }
+.business-hero-visual .media-window { aspect-ratio:1.1;mix-blend-mode:multiply;margin-block:24px; }
+.business-hero-visual .catalogue-image { max-width:420px; }
+.business-page figcaption { font-size:.75rem;color:var(--muted);line-height:1.6; }
+.business-overview { display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(32px,5vw,80px);border-block:1px solid var(--line);padding-block:48px;margin-block:64px; }
+.business-overview dl,.enquiry-contact-information dl { margin-block:24px; }
+.business-overview dl>div,.enquiry-contact-information dl>div { padding-block:16px;border-bottom:1px solid var(--line); }
+.business-overview dt,.enquiry-contact-information dt { font-size:.75rem;color:var(--muted);margin-bottom:8px; }
+.business-overview dd,.enquiry-contact-information dd { margin:0;line-height:1.6; }
+.business-page .business-note-small { font-size:.8125rem;color:var(--muted);max-width:70ch; }
+.business-section-heading { display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:40px;align-items:end;margin-bottom:32px; }
+.business-section-heading>p { max-width:48ch;color:var(--muted);font-size:.875rem;margin-bottom:24px; }
+.business-category-grid { display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:40px 24px;margin-bottom:24px; }
+.business-category { min-width:0;--business-stage:#eae4d8;--business-line:#d1c7b7; }
+.business-category[data-tone=kraft] { --business-stage:#e1d4bc;--business-line:#bdab8d; }.business-category[data-tone=paper] { --business-stage:#eee3cc;--business-line:#d0bd98; }.business-category[data-tone=sage] { --business-stage:#e2e8df;--business-line:#bdc8b8; }.business-category[data-tone=industrial] { --business-stage:#dadfd6;--business-line:#b1b9aa; }
+.business-category-stage { position:relative;isolation:isolate;display:flex;flex-direction:column;justify-content:space-between;aspect-ratio:1.4;background:var(--business-stage);border:1px solid var(--business-line);border-radius:12px;padding:24px;overflow:hidden;margin-bottom:20px; }
+.business-category-stage .media-window { height:100%;width:100%;mix-blend-mode:multiply; }
+.business-category-stage .catalogue-image { max-width:320px; }
+.business-category-pending { font-size:.75rem;color:var(--muted); }
+.business-material { position:absolute;inset:0;z-index:-1;background:repeating-linear-gradient(115deg,transparent 0 26px,color-mix(in srgb,var(--business-line) 25%,transparent) 27px 28px,transparent 29px 54px);mask-image:linear-gradient(150deg,#000,transparent 75%); }
+.business-category .text-link { margin-top:16px;font-size:.8125rem; }
+.business-journey { margin-block:80px; }
+.business-journey ol { list-style:none;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:32px;padding:0;margin-top:40px; }
+.business-journey li { border-top:1px solid var(--line);padding-top:24px; }
+.business-journey h3 { margin-block:20px 12px; }
+.business-journey li p { font-size:.875rem;color:var(--muted); }
+.business-cta { background:var(--ink);color:var(--paper);padding:clamp(28px,5vw,64px);border-radius:16px;margin-block:64px; }
+.business-cta p { max-width:52ch; }.business-cta .button { margin-top:24px; }
+.enquiry-hero { margin-bottom:64px; }
+.enquiry-hero-visual { background:#e2e8df;border-color:#bdc8b8; }
+.enquiry-hero-visual .media-window { aspect-ratio:1.3;mix-blend-mode:multiply; }
+.enquiry-hero-visual .catalogue-image { max-width:420px; }
+.enquiry-hero-visual figcaption { margin-top:20px; }
+.enquiry-notice { font-size:.8125rem;border-left:2px solid var(--rust);padding-left:16px;margin-block:24px;max-width:48ch; }
+.enquiry-workspace { display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:clamp(32px,6vw,96px);margin-bottom:80px;align-items:start; }
+.enquiry-preparation { min-width:0;scroll-margin-top:120px; }
+.enquiry-preparation>p { font-size:.875rem;max-width:65ch; }
+.enquiry-contact-information { border-top:1px solid var(--line);padding-top:24px; }
+.enquiry-contact-information h2 { font-size:clamp(1.5rem,2.5vw,2.25rem); }
+.enquiry-contact-information>p { font-size:.875rem; }
+.enquiry-contact-information ul { list-style:none;padding:0;margin-block:24px; }
+.enquiry-contact-information li { display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;padding-block:16px;border-bottom:1px solid var(--line);font-size:.875rem; }
+.enquiry-contact-information li>span:last-child { font-size:.75rem;color:var(--muted); }
+.enquiry-contact-information .text-link { margin-top:24px;font-size:.875rem; }
+.enquiry-context { padding:16px 0;border-block:1px solid var(--line);margin-block:24px;overflow-wrap:anywhere; }
+.enquiry-fields { display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin-top:32px; }
+.enquiry-field { min-width:0; }.enquiry-field-wide { grid-column:1/-1; }
+.enquiry-field label,.enquiry-draft label { display:block;font-size:.8125rem;font-weight:500;margin-bottom:10px; }
+.enquiry-field input,.enquiry-field textarea,.enquiry-field select,.enquiry-draft textarea { font:inherit;font-size:1rem;width:100%;min-width:0;max-width:100%;background:transparent;border:1px solid var(--control-border);border-radius:var(--control-radius);padding:14px 12px;color:var(--ink);line-height:1.5; }
+.enquiry-field select { text-overflow:ellipsis;padding-right:28px; }.enquiry-field textarea,.enquiry-draft textarea { resize:vertical; }
+.enquiry-field input:focus-visible,.enquiry-field textarea:focus-visible,.enquiry-field select:focus-visible,.enquiry-draft textarea:focus-visible { outline:var(--focus-width) solid var(--focus);outline-offset:var(--focus-offset); }
+.enquiry-field [aria-invalid=true] { border-color:var(--rust); }
+.enquiry-field-meta { display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-top:6px; }
+.enquiry-field-meta>span { margin-left:auto;font-size:.6875rem;color:var(--muted); }
+.enquiry-field-error,.enquiry-errors-summary { font-size:.8125rem;color:var(--rust); }
+.enquiry-errors-summary { margin-top:24px; }
+.enquiry-reference-link { font-size:.75rem;margin-top:12px; }.enquiry-reference-link a { display:inline-flex;align-items:center;gap:12px;text-decoration:underline;text-underline-offset:4px;min-height:44px; }.enquiry-reference-link>span { display:block;color:var(--muted); }
+.enquiry-form-actions { display:flex;align-items:center;flex-wrap:wrap;gap:16px;margin-top:32px; }
+.enquiry-form-actions>span { font-size:.75rem;color:var(--muted); }
+.enquiry-draft { border-top:1px solid var(--line);margin-top:40px;padding-top:24px; }
+.enquiry-draft-status { font-weight:500;margin-bottom:24px; }.enquiry-draft>p { font-size:.8125rem;margin-block:16px; }.enquiry-draft textarea { font-size:.875rem; }.enquiry-draft .button { margin-top:8px; }
+@media(prefers-reduced-motion:no-preference){.business-hero>div,.enquiry-hero>div { animation:editorial-arrive var(--reveal-duration) var(--reveal-ease) backwards; }.business-hero-visual .media-window,.enquiry-hero-visual .media-window { animation:material-wipe var(--reveal-duration) var(--reveal-ease) backwards; }}
+@media(hover:hover) and (prefers-reduced-motion:no-preference){.business-category .catalogue-image { transition:transform var(--reveal-duration) var(--reveal-ease); }.business-category:hover .catalogue-image { transform:scale(var(--image-hover-scale)); }}
+@media(max-width:959px){.business-category-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }.business-journey ol { grid-template-columns:repeat(2,minmax(0,1fr)); }.enquiry-workspace { grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:32px; }.business-hero,.enquiry-hero { gap:24px;margin-block:40px 64px; }}
+@media(max-width:639px){.business-hero,.enquiry-hero,.business-overview,.business-section-heading,.enquiry-workspace { grid-template-columns:minmax(0,1fr);gap:32px; }.business-hero,.enquiry-hero { margin-top:32px; }.business-page h1 { font-size:clamp(2.5rem,9vw,3.5rem); }.business-hero-visual,.enquiry-hero-visual { padding:24px; }.business-overview { margin-block:48px;padding-block:32px;gap:16px; }.business-category-grid { grid-template-columns:minmax(0,1fr);gap:32px; }.business-section-heading { gap:0; }.business-category-stage { aspect-ratio:1.5; }.business-journey { margin-block:48px; }.business-journey ol { grid-template-columns:minmax(0,1fr);gap:24px; }.business-actions { gap:16px; }.enquiry-fields { grid-template-columns:minmax(0,1fr);gap:20px; }.enquiry-workspace { gap:48px;margin-bottom:48px; }.enquiry-contact-information { padding-top:24px; }}

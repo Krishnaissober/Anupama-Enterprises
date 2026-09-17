@@ -1,0 +1,27 @@
+{
+  "name": "anupama-homepage",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prepare:data": "node scripts/prepare-homepage.mjs && node scripts/prepare-catalogue.mjs && node scripts/prepare-enrichment.mjs",
+    "predev": "npm run prepare:data",
+    "dev": "vite --host 127.0.0.1",
+    "prebuild": "npm run prepare:data",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "dependencies": {
+    "motion": "^13.3.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "4.3.3",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "tailwindcss": "4.3.3",
+    "typescript": "^7.0.2",
+    "vite": "8.3.0"
+  }
+}
